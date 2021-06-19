@@ -34,7 +34,7 @@ export const GlobalStyle = createGlobalStyle `
     }
 
     body {
-        background: var(---background);
+        background: var(--background);
     }
 
     body, input, textarea, button {
