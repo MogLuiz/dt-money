@@ -10,12 +10,7 @@ export const Container = styled.div`
         border-spacing: 0 0.5rem;
     }
 
-    tr {
-        &:hover {
-        transform: translateX(10px);
-
-        transition: transform 0.3s;
-    }  
+   
 
     th {
         color: var(--text-body);
@@ -31,7 +26,7 @@ export const Container = styled.div`
         border: 0;
         background: var(--shape);
         color: var(--text-body);
-        border-radius: 0.25rem;
+
 
         &:first-child{
             color: var(--text-title);
@@ -45,8 +40,16 @@ export const Container = styled.div`
             color: var(--red);
         }
 
+        &.borderleft {
+            border-radius: 0.25rem 0 0 0.25rem;
+        }
+
+        &.borderright {
+            border-radius: 0 0.25rem 0.25rem 0;
+        }
+
     }
         
-    }
+    
 
 `
