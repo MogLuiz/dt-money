@@ -46,11 +46,7 @@ Go to http://localhost:3000/ to see the result.
 
 ### Repositories
 
-  <img align="center" alt="App Screenshot" src="https://res.cloudinary.com/marcelojrfarias/image/upload/v1604356258/githubexplorer-repositories_gxtesu.png"/>
-
-### Details
-
-  <img align="center" alt="App Screenshot" src="https://res.cloudinary.com/marcelojrfarias/image/upload/v1604356258/githubexplorer-details_hnljga.png"/>
+  <img align="center" alt="Dt-Money gif" src="https://user-images.githubusercontent.com/58401291/135853264-eac57387-050e-4c85-9787-05c0dfad0715.gif" width="100%" height="100%"/>
 
 ## :memo: License
 
