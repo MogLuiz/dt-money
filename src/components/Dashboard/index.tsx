@@ -1,14 +1,18 @@
-import React from 'react'
-import { Summary } from '../Summary'
-import { TransactionTable } from '../TransactionsTable'
+//Utils
+import { Summary } from "../Summary";
+import { TransactionTable } from "../TransactionsTable";
 
-import { Container } from './styles'
+// Style
+import { Container } from "./styles";
 
 export function Dashboard() {
-    return (
-        <Container>
-            <Summary />
-            <TransactionTable />
-        </Container>
-    )
+  // -------------------------------------------------
+  // Render
+  // -------------------------------------------------
+  return (
+    <Container>
+      <Summary />
+      <TransactionTable />
+    </Container>
+  );
 }

@@ -1,10 +1,16 @@
-import React, { useState } from "react";
+// Packages
+import { useState } from "react";
 import Modal from "react-modal";
+
+// Components
 import { Dashboard } from "./components/Dashboard";
 import { Header } from "./components/Header";
 import { NewTransactionModal } from "./components/NewTransactionModal";
+
+// Context
 import { TransactionsProvider } from "./TransactionsContext";
 
+// Styles
 import { GlobalStyle } from "./styles/global";
 
 Modal.setAppElement("#root");

@@ -1,4 +1,7 @@
+// Packages
 import { createContext, useEffect, useState, ReactNode } from "react";
+
+// Services
 import { api } from "./services/api";
 
 interface ITransaction {
